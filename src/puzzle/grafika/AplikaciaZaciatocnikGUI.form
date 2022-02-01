@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="btgFarby">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="btgHraPrvyKrat">
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="mnuProgram">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Program"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mniKoniec">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Koniec"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniKoniecActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="rdbNie" min="-2" max="-2" attributes="0"/>
+                          <Component id="rdbAno" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblHraPrvyKrat" min="-2" max="-2" attributes="0"/>
+                          <Component id="rdbZlta" min="-2" max="-2" attributes="0"/>
+                          <Component id="rdbCervena" min="-2" max="-2" attributes="0"/>
+                          <Component id="rdbCierna" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblVyberFarbu" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                      <Component id="btnSpustiHru" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="lblVyberFarbu" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="rdbCierna" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="rdbCervena" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="rdbZlta" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="lblHraPrvyKrat" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="rdbAno" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="rdbNie" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnSpustiHru" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblVyberFarbu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vyber si svoju ob&#x13e;&#xfa;ben&#xfa; farbu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rdbCierna">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="&#x10c;ierna"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rdbCervena">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x10c;erven&#xe1;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rdbZlta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x17d;lt&#xe1;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHraPrvyKrat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hr&#xe1;&#x161; t&#xfa;to hru po prv&#xfd; kr&#xe1;t?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rdbAno">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="&#xc1;no"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rdbNie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSpustiHru">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Spusti hru"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSpustiHruActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
